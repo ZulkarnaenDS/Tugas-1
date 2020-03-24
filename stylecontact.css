@@ -1,0 +1,128 @@
+*{
+	margin:0;
+	padding:0;
+	font-family:calibri, ,segoe ui`, arial, tahoma, sans-serif;
+}
+
+body{
+	background-color: lightgray;
+}
+
+#wrapper{
+	width : 780px;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+header{
+	background: url(image/header.jpg) repeat-x black;
+	height : auto;
+	width : 100%;
+	padding:5px;
+	margin : 20px 0;
+	overflow : hidden;
+}
+header img{ width:100px ; height:75px ; }
+
+#menu-utama{
+	margin-top:5px;
+	list-style:none;
+}
+
+#menu-utama li{
+	float:left;
+	padding:8px 20px;
+	border-right:1px solid #555555;
+}
+
+#menu-utama li a{
+	color : #ffffff;
+	text-decoration:none;
+}
+
+#menu-utama li a:hover {
+	color: #FFDD21;
+}
+
+header form{
+	float:right;
+	margin-top:7px;
+	margin-right: 10px;
+}
+
+header form input{
+	border:none;
+	height:30px;
+}
+
+label {
+    font-family: "Raleway", sans-serif;
+    font-size: 11pt;
+}
+
+.form {
+	align-items: left;
+    display: flex;
+    flex-direction: column;
+}
+.form-border {
+    background: -webkit-linear-gradient(right, #FFDD21, #FFDD21);
+    height: 3px;
+    width: 100%;
+}
+.form-content {
+    background: white;
+    border: none;
+    outline: none;
+    padding-top: 14px;
+}
+
+#submit-btn {
+	float: center;
+    background: -webkit-linear-gradient(right, black, black);
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway Bold", sans-serif;
+    height: 42.3px;
+    margin: 20px;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 154px
+	
+}
+#submit-btn:hover {
+    background: -webkit-linear-gradient(right, #FFDD21, #FFDD21);
+	color: black;
+	font-family: "Raleway Bold", sans-serif;
+}
+
+#reset-btn {
+	float: center;
+    background: -webkit-linear-gradient(right, black, black);
+    border: none;
+    border-radius: 21px;
+    cursor: pointer;
+    color: white;
+    font-family: "Raleway SemiBold", sans-serif;
+    height: 42.3px;
+    margin: 20px;
+    margin-top: 50px;
+    transition: 0.25s;
+    width: 154px
+	
+}
+#reset-btn:hover {
+    background: -webkit-linear-gradient(right, #FFDD21, #FFDD21);
+	color: black;
+	font-family: "Raleway Bold", sans-serif;
+}
+
+footer{
+	clear:both;
+	margin:20px 0;
+	text-align:center;
+	background-color: #f0f0f0;
+	padding:5px;
+	color:#555555;
